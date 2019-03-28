@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bamboo.selenium.tencent.qqspace.mapper.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.bamboo.selenium.tencent.qqspace.entity.User">
+        <id column="id" property="id" />
+        <result column="qq" property="qq" />
+        <result column="nickname" property="nickname" />
+        <result column="gender" property="gender" />
+        <result column="age" property="age" />
+        <result column="birth" property="birth" />
+        <result column="blood_group" property="bloodGroup" />
+        <result column="constellation" property="constellation" />
+        <result column="current_residence" property="currentResidence" />
+        <result column="home" property="home" />
+        <result column="career" property="career" />
+        <result column="avatar" property="avatar" />
+        <result column="photo_number" property="photoNumber" />
+        <result column="log_number" property="logNumber" />
+        <result column="talk_about_number" property="talkAboutNumber" />
+    </resultMap>
+
+</mapper>
